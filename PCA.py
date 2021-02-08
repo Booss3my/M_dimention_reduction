@@ -4,11 +4,7 @@ import math as mt
 import numpy as np
 
 def PCA(x_train,coeff):
-    
-
     d=np.transpose(x_train) #donnees
-
-
     ## pca
 
     print('original Dimensions: %s x %s' % (d.shape[0], d.shape[1]))
